@@ -1,0 +1,615 @@
+/*Адаптив*/
+@media screen and (min-width: 1970px) {
+	.foot-left {
+		width: 50%;
+		max-width: none;
+	}
+	.foot-right {
+		width: 50%;
+		max-width: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.teams {
+			-webkit-flex-wrap: wrap;
+			    -ms-flex-wrap: wrap;
+			        flex-wrap: wrap;
+	}
+	.modal-content input, .teammodal-content input {
+		width: 170px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.fri1 {
+		width: 210px;
+		margin-bottom: 24px;
+	}
+	.fri2 {
+		width: 210px;
+	}
+	.foot input {
+		width: 200px;
+	}
+	.foot .btn {
+		width: 221px;
+	}
+}
+
+@media screen and (max-width: 1132px) {
+	.images {
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+	}
+	.img11 img, .img23 img, .img31 img{
+		width: 260px;
+	}
+	.img12 img, .img13 img, .img21 img,.img22 img, .img32 img, .img33 img {
+		width: 260px;
+	}
+	.img121 img, .img131 img, .img211 img, .img221 img, .img321 img, .img331 img {
+		width: 130px;
+	}
+	.images p {
+		font-size: 24px;
+	}
+	.foot-right-img {
+		margin-left: 10px;
+	}
+	.modal-img-large img {
+		width: 250px;
+		height: 250px;
+	}
+	.modal-img-small img {
+		width: 54px;
+		height: 54px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.info img {
+		width: 160px;
+	}
+	.info img:last-child {
+		width: 200px;
+		top: 100px;
+	}
+	.foot-right-img {
+		margin-left: 5px;
+	}
+	.fri1 {
+		width: 200px;
+		margin-bottom: 39px;
+	}
+	.fri2 {
+		width: 200px;
+	}
+	.foot input {
+		width: 190px;
+	}
+	.foot .btn {
+		width: 211px;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	.service ul {
+		padding-bottom: 20px;
+	}
+	.service p {
+		padding-bottom: 20px;
+	}
+	.modal-img-large img {
+		width: 220px;
+		height: 220px;
+	}
+	.modal-img-small img {
+		width: 45px;
+		height: 45px;
+	}
+}	
+@media screen and (max-width: 900px) {
+	h1 {
+		font-size: 46px;
+	}
+	h6 {
+		font-size: 23px;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 44px;
+	}
+	.info img {
+		width: 120px;
+	}
+	.info img:last-child {
+		width: 150px;
+		top: 140px;
+	}
+	.info h6, .record h6 {
+		font-size: 22px;
+	}
+	.founder h2 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 42px;
+	}
+	.foot {
+		display: none;
+	}
+	/*.foot {
+		display: block;
+	}
+	.foot-left {
+		width: auto;
+	}
+	.foot-right {
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+		width: auto;
+	}
+	.fri1 {
+		margin-bottom: 50px;
+	}
+	.foot-right-img {
+		margin-top: 0;
+	}
+	.foot-right-text h6 {
+		margin-top: 10px;
+	}
+	.foot input {
+		width: 252px;
+	}
+	.foot .btn {
+		margin-bottom: 30px;
+		width: 277px;
+	}
+	.foot p {
+		text-align: left;
+	}*/
+	.foot-min {
+		display: block;
+	}
+	.overlay-modal .modal-right {
+		margin-right: 0;
+	}
+	.modal-content h3 {
+		font-size: 20px;
+	}
+	.overlay-modal p {
+		font-size: 14px;
+	}
+	.modal-content input, .teammodal-content input {
+		width: 120px;
+		height: 25px;
+		margin-right: 10px;
+	}
+	.modal-content .btn, .teammodal-content .btn {
+		height: 30px;
+		font-size: 12px;
+		width: 150px;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 42px;
+	}
+	header h6 {
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 40px;
+	}
+	.img13, .img22, .img33 {
+		display: none;
+	}
+	.founder a img {
+		margin-bottom: 50px;
+	}
+	.info img {
+		display: none;
+	}
+	.info h6, .record h6 {
+		font-size: 20px;
+	}
+	.overlay-modal {
+		margin-bottom: 50px;
+	}
+	.teammodal-content li{
+	    margin-left: 5px;
+    	margin-right: 5px;
+    }	
+	.modal-img-large img {
+		width: 200px;
+		height: 200px;
+	}
+	.modal-img-small img {
+		width: 42px;
+		height: 42px;
+	}
+	.modal-content h3 {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 41px;
+	}
+	h6 {
+		font-size: 21px;
+	}
+	.header {
+		display: block;
+		text-align: center;
+		padding-bottom: 60px;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 39px;
+	}
+
+	.teams:first-child {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+	}
+	.teams {
+		display: none;
+		text-align: center;
+	}
+	.team1 {
+		margin: 26px auto;
+	}
+	.teams-max {
+		display: none;
+	}
+	.teams-min {
+		display: block;
+	}
+	.but-more {
+		display: block;
+	}
+	.foot-min .foot-right-text {
+		padding-top: 150px;
+	}
+	.info h6, .record h6 {
+		font-size: 18px;
+	}
+	.modal-img-large img {
+		width: 180px;
+		height: 180px;
+	}
+	.modal-img-small img {
+		width: 36px;
+		height: 36px;
+	}
+}	
+@media screen and (max-width: 608px) {
+	h1 {
+		font-size: 38px;
+	}
+	h6 {
+		font-size: 18px;
+	}
+	.header-top {
+		background: url(../img/фото-копия-2.gif) no-repeat center;
+		background-size: cover;
+	}
+	.h1-max {
+		display: none;
+	}
+	.h1-min {
+		display: block;
+		background: rgba(115, 57, 115, 0.7);
+		padding: 16px 13px;
+	}
+	.h6-max {
+		display: none;
+	}
+	.h6-min {
+		display: block;
+	}
+	.tel-btn {
+		display: none;
+	}
+	.header p {
+		display: none;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 36px;
+	}
+	.founder a img {
+		width: 450px;
+	}
+	.head-but form, .info-but form, .record-but form {
+		text-align: center;
+	}
+	.btn-left {
+		/*width: 150px;*/
+		margin-right: 0;
+		width: 350px;
+		margin-bottom: 10px;
+	}
+	.record .container {
+		padding-top: 10px;
+	}
+	.info h6 {
+		font-size: 16px;
+	}
+	.record h6 {
+		padding-top: 0;
+		font-size: 16px;
+	}
+	.btn-right {
+		/*width: 200px;*/
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.modal-content .btn {
+		margin-top: 20px;
+	}
+	.teamoverlay-modal {
+		display: block;
+		text-align: center;
+	}
+	.overlay-modal {
+		display: block;
+		text-align: center;
+	}
+	.overlay-modal .modal-left {
+		max-width: 100%;
+		-webkit-justify-content: space-around;
+		    -ms-flex-pack: distribute;
+		        justify-content: space-around;
+	}
+	.modal-img-large img {
+		width: 275px;
+		height: 275px;
+	}
+	.overlay-modal .modal-img-small {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.overlay-modal .modal-img-small img {
+		width: 60px;
+		height: 60px;
+	}
+	.overlay-modal .modal-right {
+		margin: 0;
+		width: 100%;
+	}
+	.teammodal-content .btn {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	h1 {
+		font-size: 33px;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 34px;
+	}
+	.teammodal-content .btn {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.images button {
+		display: block;
+		width: 280px;
+	}
+	.img11, .img23, .img31 {
+		display: none;
+	}
+	.img12 img, .img13 img, .img21 img, .img22 img, .img32 img, .img33 img {
+		width: 280px;
+	}
+	.img121 img, .img131 img, .img211 img, .img221 img, .img321 img, .img331 img {
+		width: 130px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 35px;
+	}
+	h6 {
+		font-size: 16px;
+	}
+	.header {
+		padding-bottom: 50px;
+	}
+
+	header h6 {
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 33px;
+	}
+	.top-img {
+		display: block;
+		right: 0;
+		top: 453px;
+	}
+	.images button {
+		display: block;
+	}
+	.img11, .img23, .img31 {
+		display: none;
+	}
+	.founder a img {
+		width: 350px;
+	}
+	.info h6, .record h6 {
+		font-size: 15px;
+	}
+	.fri1 {
+		margin-bottom: 10px;
+	}
+	.fri2 {
+		display: none;
+	}
+	.foot-right-content {
+		display: block;
+		width: auto;
+		margin: 0 auto;
+	}
+	.foot-right-img {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.foot-right-text {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.foot-right-text h6 {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer-content {
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		   -moz-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.footer .foot-img {
+		display: none;
+	}
+	.foot-min .foot-2 {
+		width: 100%;
+		height: 365px;
+		background-size: cover;
+		background: url(../img/maps.jpg) no-repeat center top;	
+	}
+	.modal-contentphone {
+		max-width: 250px;
+	}
+	.modal-content h3, .teammodal-content h3, .modal-contentphone h3 {
+		font-size: 16px;
+	}
+	.overlay-modal p, .teammodal-content li {
+		font-size: 12px;
+	}
+	.teamoverlay-modal img {
+		width: 200px;
+		height: 210px;
+	}
+	.overlay-modal .modal-img-large img {
+		width: 230px;
+		height: 230px;
+	}
+	.overlay-modal .modal-img-small img {
+		width: 47px;
+		height: 47px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	.services h2, .team h2, .main h2, .founder h2  {
+		font-size: 30px;
+	}
+	.btn-left {
+		width: 300px;
+		font-size: 12px;
+	}
+	.btn-right {
+		width: 324px;
+		font-size: 12px;
+	}
+	.founder a img {
+		width: 300px;
+	}
+	.info h6, .record h6 {
+		font-size: 14px;
+	}
+	.modal-content input, .teammodal-content input, .modal-contentphone input {
+		width: 150px;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	.modal-content .btn, .teammodal-content .btn,  {
+		margin-top: 0;
+	}
+	.modal-contentphone .btn {
+		width: 170px;
+	}
+	.overlay-modal .modal-img-large img {
+		width: 180px;
+		height: 180px;
+	}
+	.overlay-modal .modal-img-small img {
+		width: 35px;
+		height: 35px;
+	}
+	.thank-you .popup {
+		width: 260px;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.btn-left {
+		width: 250px;
+	}
+	.btn-right {
+		width: 274px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 22px;
+	}
+		.btn-left {
+		width: 200px;
+	}
+	.btn-right {
+		width: 224px;
+	}
+	.founder h2 {
+		font-size: 38px;
+	}
+	.founder a img {
+		width: 250px;
+	}
+	.record .container {
+		padding-top: 10px;
+	}
+	.record-but {
+		padding: 25px 0;
+	}
+	.overlay-modal .modal-img-large img {
+		width: 170px;
+		height: 170px;
+	}
+	.overlay-modal .modal-img-small img {
+		width: 32px;
+		height: 32px;
+	}
+}
